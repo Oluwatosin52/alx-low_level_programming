@@ -5,9 +5,10 @@
  */
 int main(void)
 {
-	int c = 0, d = 0;
+	int c;
+	int d;
 
-	for (c = 1; c < 100; c++)
+	for (c = 0; c < 100; c++)
 	{
 		d = c;
 		for (d = c + 1; d < 100; d++)
