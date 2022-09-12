@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main - program that prints all possible different combinations of  2-2 digits
+ * main - it prints all possible different combination of  2-2 digits
  * Return: 0
  */
 int main(void)
 {
-	int c = 0, d;
+	int c = 0, d = 0;
 
 	while (c <= 99)
 	{
