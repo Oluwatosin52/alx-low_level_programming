@@ -7,10 +7,10 @@ int main(void)
 {
 	int c = 0, d = 0;
 
-	for (c <= 99)
+	for (c = 1; c <= 99; c++)
 	{
 		d = c;
-		for (d <= 99)
+		for (d = 1; d <= 99; d++)
 		{
 			if (d != c)
 			{
@@ -26,9 +26,7 @@ int main(void)
 					putchar(' ');
 				}
 			}
-			++d;
 		}
-		++c;
 	}
 	putchar('\n');
 	return (0);
