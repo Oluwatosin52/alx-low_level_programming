@@ -5,7 +5,8 @@
  * @n : times table to use
  * Return:void
  */
-void times_table(int n)
+
+void print_times_table(int n)
 {
 int a = 0, rep, b;
 if (n < 0 || n > 15)
