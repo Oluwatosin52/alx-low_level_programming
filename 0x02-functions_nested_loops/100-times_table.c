@@ -6,9 +6,11 @@
  * @n: parameter
  * Return: returns nothing
  */
+
 void print_times_table(int n)
 {
-int digit, mult, result;
+
+	int digit, mult, result;
 if (n <= 15 && n >= 0)
 {
 for (digit = 0; digit <= n; digit++)
