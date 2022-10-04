@@ -1,18 +1,19 @@
-#include "main.h"
 #include <stdlib.h>
-
 /**
- * malloc_checked - This provides a safe way of mallocing
- * @b: This is the number of bytes to be malloced
+ * create_array - creates an array of chars,
+ * and initializes it with a specific char.
+ * @size: size of the array
+ * @c: char to initialize
  *
- * Return: Void Pointer
+ * Return: pointer to the array initialized or NULL
  */
-void *malloc_checked(unsigned int b)
+char *create_array(unsigned int size, char c)
 {
-	void *ptr;
+	char *n = malloc(size);
 
-	ptr = malloc(b);
-	if (ptr == NULL)
-		exit(98);
-	return (ptr);
+	if (size == 0 || n == 0)
+		return (0);
+	while (size--)
+		n[size] = c;
+	return (n);
 }
