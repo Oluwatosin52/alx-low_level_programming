@@ -1,5 +1,4 @@
-nclude "variadic_functions.h"
-
+#include "variadic_functions.h"
 /**
  * sum_them_all - Adds all its args together
  * @n: This is the first argument
